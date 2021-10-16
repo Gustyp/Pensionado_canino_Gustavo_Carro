@@ -5,14 +5,13 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import "../node_modules/animate.css/animate.css";
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
   --bs-red: #dc3545;
-  --bs-orange: #fd7e14;
+  --bs-orange: #e55039aa;
   --bs-yellow: #ffc107;
   --bs-green: #A09F57;
   --bs-teal: #20c997;
@@ -11231,6 +11230,57 @@ main {
 
 .galeria__img:hover {
   border: 5px solid #f7f7f7;
+}
+
+.body-404 {
+  font-family: "montserrat", sans-serif;
+  cursor: pointer;
+  background-image: linear-gradient(-125deg, #a09f57, #aaa35f, #b3a867, #bcac6f, #c4b178, #cab680, #d0bc89, #d6c191, #dbc89b, #e0d0a4, #e5d7ae, #eadeb8);
+}
+.body-404__container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #171010;
+}
+.body-404__container h1 {
+  font-size: 9rem;
+  font-weight: 950;
+  letter-spacing: 1rem;
+  color: #5f2e3a;
+  animation: animates 2s linear infinite alternate;
+}
+.body-404__container button {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  background: #e55039aa;
+  color: #F2F2F2;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 1.5rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+.body-404__container button img {
+  margin-right: 1rem;
+}
+.body-404__container button:hover {
+  background: #e55039;
+}
+
+@keyframes animates {
+  0% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
