@@ -11252,11 +11252,12 @@ main {
   font-weight: 950;
   letter-spacing: 1rem;
   color: #5f2e3a;
-  animation: animates 2s linear infinite alternate;
+  animation: rebote 2s linear infinite alternate;
+}
+.body-404__container h2 img {
+  max-width: 20%;
 }
 .body-404__container button {
-  display: flex;
-  justify-content: space-around;
   text-decoration: none;
   background: #e55039aa;
   color: #F2F2F2;
@@ -11266,6 +11267,8 @@ main {
   font-size: 0.8rem;
   text-transform: uppercase;
   transition: 0.4s;
+  box-shadow: 0px 4px 15px -5px #171010;
+  -webkit-box-shadow: 0px 4px 15px -5px #171010;
 }
 .body-404__container button img {
   margin-right: 1rem;
@@ -11274,12 +11277,12 @@ main {
   background: #e55039;
 }
 
-@keyframes animates {
+@keyframes rebote {
   0% {
-    transform: rotate(5deg);
+    transform: rotate(5deg) translateY(30px);
   }
   100% {
-    transform: rotate(-5deg);
+    transform: rotate(-5deg) translateY(-70px);
   }
 }
 
