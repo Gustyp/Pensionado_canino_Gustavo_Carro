@@ -11223,6 +11223,12 @@ main {
   color: #207c9b;
 }
 
+@media (min-width: 900px) {
+  .carousel-item img {
+    width: 1325px;
+    height: 518px;
+  }
+}
 .form--background {
   background: #F2F2F2;
   border: 1px solid #F9CF93;
