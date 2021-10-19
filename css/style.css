@@ -11239,6 +11239,11 @@ main {
   border: 1px solid #F9CF93;
 }
 
+.form-control {
+  border: none;
+  border-bottom: 2px solid #CFB784;
+}
+
 .galeria__img:hover {
   border: 5px solid #f7f7f7;
 }
