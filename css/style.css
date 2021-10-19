@@ -11137,11 +11137,16 @@ body, html {
 }
 
 body {
-  font-size: 20px;
+  font-size: 12px;
   font-family: "Open Sans", sans-serif;
   background-image: url(../assets/images/fondo-body.jpg);
   background-color: #F9CF93;
   background-attachment: fixed;
+}
+@media screen and (min-width: 541px) {
+  body {
+    font-size: 20px;
+  }
 }
 
 main {
@@ -11155,11 +11160,11 @@ main {
 /*EXTENDS*/
 .titulo-principal, .galeria__titulo, .info-contacto__titulo, .info-general__titulo, .info-preguntas-frecuentes__titulo, .pensionado__titulo, .info-sobre-nosotros__titulo, .info-nuestros-rescatados__titulo {
   font-family: "Tangerine", cursive;
-  font-size: 60px;
+  font-size: 3em;
 }
 .titulo-principal::first-letter, .galeria__titulo::first-letter, .info-contacto__titulo::first-letter, .info-general__titulo::first-letter, .info-preguntas-frecuentes__titulo::first-letter, .pensionado__titulo::first-letter, .info-sobre-nosotros__titulo::first-letter, .info-nuestros-rescatados__titulo::first-letter {
   color: #5f2e3a;
-  font-size: 120px;
+  font-size: 3em;
 }
 
 .sombra, .form--background, .card--shadow {
