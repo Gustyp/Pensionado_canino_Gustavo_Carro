@@ -4593,7 +4593,7 @@ textarea.form-control-lg {
 .accordion-button:not(.collapsed) {
   color: #5f2e3a;
   background-color: #CFB784;
-  box-shadow: inset 0 -1px 0 rgba(95, 46, 58, 0.125);
+  box-shadow: inset 0 -1px 0 1px solid rgba(95, 46, 58, 0.125);
 }
 .accordion-button:not(.collapsed)::after {
   background-image: url("../assets/svg/arrow.svg");
@@ -4631,7 +4631,7 @@ textarea.form-control-lg {
 
 .accordion-item {
   background-color: #F9E4C8;
-  border: 1px solid rgba(95, 46, 58, 0.125);
+  border: 1px solid 1px solid rgba(95, 46, 58, 0.125);
 }
 .accordion-item:first-of-type {
   border-top-left-radius: 0.25rem;
