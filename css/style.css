@@ -11168,7 +11168,7 @@ main {
 }
 
 .titulo-secundario, .galeria__subtitulo, .info-contacto__form-titulo, .mapa__subtitulo, .info-general__container__titulo {
-  font-size: 2rem;
+  font-size: 1.5em;
   color: #5f2e3a;
   font-weight: 700;
 }
