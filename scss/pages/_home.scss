@@ -1,0 +1,20 @@
+@use '../globals' as *;
+
+.info-sobre-nosotros__titulo {
+    @extend .titulo-principal;
+}
+
+.info-nuestros-rescatados__titulo {
+    @extend .titulo-principal;
+}
+
+.card--shadow {
+    @extend .sombra;
+}
+
+@media (min-width: 900px){
+    .carousel-item img {
+        width:1325px;
+        height:518px;
+    }
+}

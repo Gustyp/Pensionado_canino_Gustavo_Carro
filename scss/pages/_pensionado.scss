@@ -1,0 +1,5 @@
+@use '../globals' as *;
+
+.pensionado__titulo {
+    @extend .titulo-principal;
+}

@@ -1,0 +1,54 @@
+// Colores de mi tema
+$green: #A09F57;
+$green-sm: #CFB784;
+$brown: #5f2e3a;
+$white-lg: #f7f7f7;
+$white-md: #F2F2F2;
+$orange-lg: #e55039;
+$orange: #e55039aa;
+$orange-sm: #F9CF93;
+$orange-xs: #F9E4C8;
+$black: #171010;
+
+// Colores principales de mi sitio web 
+$primary: $green;
+$secondary: $green-sm;
+
+// Tamaño de fuente principal en desktop
+$desktop-font: 20px;
+
+// Tamaño de fuente principal en mobile
+$mobile-font: 12px;
+
+// Tamaño de fuente principa
+$main-font: $mobile-font;
+
+// Navbar Bootstrap
+$navbar-light-active-color: $brown;
+$navbar-light-toggler-border-color: $brown;
+$nav-link-height: 1rem;
+
+// Dropdown Bootstrap
+$dropdown-padding-y: 0;
+
+// Cards Bootstrap
+$card-color: $brown;
+$card-bg: $white-md;
+
+// Accordion Bootstrap
+$accordion-padding-y: 1rem;
+$accordion-padding-x: 1rem;
+$accordion-color: $primary;
+$accordion-bg: $orange-xs;   
+$accordion-border-color: 1px solid rgba($brown, .125);
+$accordion-button-color: $white-lg;
+$accordion-button-bg: $primary;
+$accordion-button-active-bg: $green-sm;
+$accordion-button-active-color: $brown;
+$accordion-icon-width: 1.2em;
+$accordion-button-active-icon: url("../assets/svg/arrow.svg");
+$accordion-button-icon: url("../assets/svg/arrow.svg");
+
+
+// Importar Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

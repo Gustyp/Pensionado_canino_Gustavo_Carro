@@ -1,0 +1,18 @@
+@use '../globals' as *;
+@use '../custom' as *;
+
+.galeria {
+
+    &__titulo {
+        @extend .titulo-principal;
+    }
+
+    &__subtitulo {
+        @extend .titulo-secundario;
+    }
+
+    &__img:hover {
+        border: 5px solid $white-lg;
+    }
+}
+

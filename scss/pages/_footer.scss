@@ -1,0 +1,30 @@
+@use '../custom' as *;
+
+// Formato del Footer 
+.footer {
+    background-color: $green-sm;
+    box-shadow: 3px 0 10px 10px rgba(0, 0, 0, 0.2);
+    font-size: 0.8rem;
+
+    &__iconos-info {
+        color: $brown;
+    }
+
+    &__redes-sociales {
+        background-color: $black;
+    }
+}
+
+// Mapa de iconos de redes sociales
+$redes: (
+    instagram: rgb(117, 21, 69),
+    facebook: #3b5999,
+    twitter: rgb(32, 124, 155),
+);
+
+// Bucle para usar los valores del mapa
+@each $red, $color in $redes {
+    .footer__redes-sociales__#{$red} {
+        color: $color;
+    }
+}

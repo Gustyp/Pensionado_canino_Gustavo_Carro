@@ -1,0 +1,13 @@
+@use '../globals' as *;
+
+.info-general__titulo {
+    @extend .titulo-principal;
+}
+
+.info-preguntas-frecuentes__titulo {
+    @extend .titulo-principal;
+}
+
+.info-general__container__titulo {
+    @extend .titulo-secundario;
+}

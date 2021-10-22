@@ -1,0 +1,25 @@
+@use '../globals' as *;
+@use '../custom' as *;
+
+.info-contacto__titulo {
+    @extend .titulo-principal;
+}
+
+.info-contacto__form-titulo {
+    @extend .titulo-secundario;
+}
+
+.form--background {
+    background: $white-md;
+    border: 1px solid $orange-sm;
+    @extend .sombra;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 2px solid $green-sm;
+}
+
+.mapa__subtitulo {
+    @extend .titulo-secundario;
+}

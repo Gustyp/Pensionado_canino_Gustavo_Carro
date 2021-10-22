@@ -1,0 +1,68 @@
+@use './custom' as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+body {
+    font-size: $main-font;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../assets/images/fondo-body.jpg);
+    background-color: $orange-sm;
+    background-attachment: fixed;
+
+    @media screen and (min-width: 541px){
+        $main-font: $desktop-font;
+        font-size: $main-font;
+    }
+}
+
+main {
+    padding-top: 3.5rem;
+}
+
+.container--background {
+    background-color: $orange-xs;
+}
+
+/*EXTENDS*/
+.titulo-principal {
+    font-family: 'Tangerine', cursive;
+    font-size: 3em;
+    
+    &::first-letter {
+        color: $brown;
+        font-size: 3em;
+    }
+}
+
+.titulo-secundario {
+    font-size: 1.5em;
+    color: $brown;
+    font-weight: 700;
+}
+
+.sombra {
+    box-shadow: 1px 15px 12px -3px rgba(0, 0, 0, 0.56);
+}
+
+
+// Formato de la scrollbar
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(transparent, #a09f57, #aaa35f, #b3a867, #bcac6f, #c4b178, #cab680, #d0bc89, #d6c191, #dbc89b, #e0d0a4, #e5d7ae, #eadeb8);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: $brown;
+}
