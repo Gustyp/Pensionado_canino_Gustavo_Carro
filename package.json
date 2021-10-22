@@ -14,5 +14,13 @@
     "aos": "^2.3.4",
     "bootstrap": "^5.1.1"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gustyp/Pensionado_canino_Gustavo_Carro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gustyp/Pensionado_canino_Gustavo_Carro/issues"
+  },
+  "homepage": "https://github.com/Gustyp/Pensionado_canino_Gustavo_Carro#readme"
 }
