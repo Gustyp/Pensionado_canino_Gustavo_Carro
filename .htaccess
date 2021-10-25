@@ -1,4 +1,4 @@
-ErrorDocument 404 https://gustyp.github.io/Pensionado_canino_Gustavo_Carro/404.html
+ErrorDocument 404 https://pensionadocaninobamboo.netlify.app/404.html
 
 <IfModule mod_rewrite.c>
 RewriteEngine on
