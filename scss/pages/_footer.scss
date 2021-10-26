@@ -26,5 +26,6 @@ $redes: (
 @each $red, $color in $redes {
     .redes-sociales__#{$red} {
         color: $color;
+        cursor: pointer;
     }
 }

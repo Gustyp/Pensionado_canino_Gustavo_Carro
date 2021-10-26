@@ -11224,14 +11224,17 @@ footer .redes-sociales {
 
 .redes-sociales__instagram {
   color: #751545;
+  cursor: pointer;
 }
 
 .redes-sociales__facebook {
   color: #3b5999;
+  cursor: pointer;
 }
 
 .redes-sociales__twitter {
   color: #207c9b;
+  cursor: pointer;
 }
 
 @media (min-width: 900px) {
