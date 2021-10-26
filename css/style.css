@@ -11210,27 +11210,27 @@ main {
   color: #F9E4C8 !important;
 }
 
-.footer {
+footer {
   background-color: #CFB784;
   box-shadow: 3px 0 10px 10px rgba(0, 0, 0, 0.2);
   font-size: 0.8rem;
 }
-.footer__iconos-info {
+footer .iconos-info {
   color: #5f2e3a;
 }
-.footer__redes-sociales {
+footer .redes-sociales {
   background-color: #171010;
 }
 
-.footer__redes-sociales__instagram {
+.redes-sociales__instagram {
   color: #751545;
 }
 
-.footer__redes-sociales__facebook {
+.redes-sociales__facebook {
   color: #3b5999;
 }
 
-.footer__redes-sociales__twitter {
+.redes-sociales__twitter {
   color: #207c9b;
 }
 
