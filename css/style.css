@@ -11277,7 +11277,7 @@ footer .redes-sociales {
   font-weight: 950;
   letter-spacing: 1rem;
   color: #5f2e3a;
-  animation: rebote 2s linear infinite alternate;
+  animation: float 3s linear infinite;
 }
 .body-404__container h2 img {
   max-width: 20%;
@@ -11305,12 +11305,15 @@ footer .redes-sociales {
   background: #e55039;
 }
 
-@keyframes rebote {
+@keyframes float {
   0% {
-    transform: rotate(5deg) translateY(30px);
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-40px);
   }
   100% {
-    transform: rotate(-5deg) translateY(-70px);
+    transform: translatey(0px);
   }
 }
 

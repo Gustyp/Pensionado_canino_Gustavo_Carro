@@ -20,7 +20,7 @@
             font-weight: 950;
             letter-spacing: 1rem;
             color: $brown;
-            animation: rebote 2s linear infinite alternate;
+            animation: float 3s linear infinite;
         }
 
         & h2 img {
@@ -55,11 +55,17 @@
     }
 }
 
-@keyframes rebote {
-    0% {
-        transform: rotate(5deg) translateY(30px);
-    }
-    100% {
-        transform: rotate(-5deg) translateY(-70px);
-    }
+@keyframes float {
+	0% {
+		// box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		// box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-40px);
+	}
+	100% {
+		// box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
 }
