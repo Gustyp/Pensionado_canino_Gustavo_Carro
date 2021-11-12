@@ -9,9 +9,6 @@
   "author": "Gustavo Carro",
   "license": "ISC",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.4",
-    "animate.css": "^4.1.1",
-    "aos": "^2.3.4",
     "bootstrap": "^5.1.1"
   },
   "devDependencies": {},
