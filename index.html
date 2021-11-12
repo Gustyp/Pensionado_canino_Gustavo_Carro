@@ -65,7 +65,7 @@
     <!-- Inicio MAIN -->
     <main>
         <!-- Inicio Carousel de imágenes -->
-        <section class="container-fluid p-0">
+        <section class="container p-0">
             <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -96,7 +96,7 @@
         <!-- Fin Carousel de imágenes -->
         <!-- inicio información -->
         <section class="info-sobre-nosotros container container--background">
-            <h2 class="pt-5 text-center info-sobre-nosotros__titulo" data-aos="zoom-in" data-aos-easing="fade-down" data-aos-duration="600">Sobre nosotros</h2>
+            <h2 class="pt-2 text-center info-sobre-nosotros__titulo" data-aos="zoom-in" data-aos-easing="fade-down" data-aos-duration="600">Sobre nosotros</h2>
             <div class="row justify-content-center">
                 <div class="col-lg-8 d-flex justify-content-center align-items-center" data-aos="fade-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
                     <p class="info-sobre-nosotros_texto">Bamboo es una empresa familiar creada hace más de 5 años en Avellaneda, provincia de Buenos Aires, con la intención de cuidar de aquellos amigos de cuatro patas que no tuvieron la oportunidad de tener un hogar.
@@ -114,6 +114,32 @@
             </div>
         </section>   
         <!-- Fin información -->
+        <!-- Inicio Atajo a secciones -->
+        <section class="container container--background">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-3 d-flex flex-column align-items-center my-5" data-aos="flip-left" data-aos-easing="ease-in-sine" data-aos-duration="600">
+                    <img src="assets/images/landscapeImage1.jpg" class="rounded-circle mb-3" alt="" width="160" height="140" role="img">    
+                    <h2 class="titulo-secundario text-center">Servicio de adopción</h2>
+                    <!-- <p class="text-center">De la misma forma que rescatamos a nuestros amigos si presentan peligro, vos podés ayudarlos con tu amor y ¡brindarles un nuevo hogar!</p> -->
+                    <a class="btn btn-secondary mt-3" href="servicios.html#decoracion">Ver más</a>
+                </div>
+    
+                <div class="col-lg-3 d-flex flex-column align-items-center my-5" data-aos="flip-left" data-aos-easing="ease-in-sine" data-aos-duration="600">
+                    <img src="assets/images/landscapeImage2.jpg" class="rounded-circle mb-3" alt="" width="160" height="140" role="img">
+                    <h2 class="titulo-secundario text-center">Nuestros servicios</h2>
+                    <!-- <p class="text-center">Contamos con diversos servicios brindados por especialistas y amantes de los animales.</p> -->
+                    <a class="btn btn-secondary mt-3" href="servicios.html#carta">Ver más</a>
+                </div>
+    
+                <div class="col-lg-3 d-flex flex-column align-items-center my-5" data-aos="flip-left" data-aos-easing="ease-in-sine" data-aos-duration="600">
+                    <img src="assets/images/landscapeImage3.jpg" class="rounded-circle mb-3" alt="" width="160" height="140" role="img">
+                    <h2 class="titulo-secundario text-center">¡Al rescate!</h2>
+                    <!-- <p class="text-center">Si presenciás algún tipo de maltrato hacia algún de nuestros amigos de 4 patas, no dudes en llamarnos.</p> -->
+                    <a class="btn btn-secondary mt-3" href="servicios.html#iluminacion">Ver más</a>
+                </div>
+            </div>
+        </section>
+        <!-- Fin Atajo a secciones -->
         <!-- Inicio Seccion Rescatados -->
         <section class="info-nuestros-rescatados d-flex flex-column container container--background justify-content-center align-items-center">
             <h2 class="p-2 text-center info-nuestros-rescatados__titulo" data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-duration="600">Nuestros rescatados</h2>
@@ -124,11 +150,14 @@
                     Gracias a nuestros voluntarios y apadrinamientos, podemos costear los gastos de cada rescatado.</p>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8 d-flex justify-content-center align-items-center pb-5">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-8 justify-content-center align-items-center pb-5">
                     <div class="card-group">
-                        <div class="card card--shadow mx-1 rounded" data-aos="fade-right" data-aos-anchor-placement="top-center">
+                        <div class="card card--shadow rounded m-5" data-aos="fade-right" data-aos-anchor-placement="top-center">
                             <img src="assets/images/imagenRescatado1.jpeg" class="card-img-top" alt="Perro rescatado">
+                            <div class="card-header">
+                                Rescatada el 12/8/21
+                            </div>
                             <div class="card-body">
                                 <h3 class="card-title">Pruna</h3>
                                 <p class="card-text">Fue rescatada de la calle hace 5 meses junto a sus 4 hermanitos, quienes fueron todos adoptados.
@@ -136,7 +165,7 @@
                                 ¡Animate a darle un espacio en tu casa!</p>
                             </div>
                         </div>
-                        <div class="card card--shadow mx-1 rounded" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                        <!-- <div class="card card--shadow rounded m-5" data-aos="fade-up" data-aos-anchor-placement="top-center">
                             <img src="assets/images/imagenRescatado2.jpeg" class="card-img-top" alt="Perro rescatado">
                             <div class="card-body">
                                 <h3 class="card-title">Josefina</h3>
@@ -144,9 +173,12 @@
                                 Es super sana, le encanta dar mucho cariño y ¡dormir en compañía!
                                 Está lista para ser adoptada.</p>
                             </div>
-                        </div>
-                        <div class="card card--shadow mx-1 rounded" data-aos="fade-left" data-aos-anchor-placement="top-center">
+                        </div> -->
+                        <div class="card card--shadow rounded m-5" data-aos="fade-left" data-aos-anchor-placement="top-center">
                             <img src="assets/images/imagenRescatado3.jpeg" class="card-img-top" alt="Gato rescatado">
+                            <div class="card-header">
+                                Rescatado el 23/10/21
+                            </div>
                             <div class="card-body">
                                 <h3 class="card-title">Avellana</h3>
                                 <p class="card-text">Nuestro último rescatado, fue entregado a nosotros con 4 meses, actualmente tiene 8 y está super listo y sano para dar mucho amor en un hogar.</p>

@@ -11,10 +11,3 @@
 .card--shadow {
     @extend .sombra;
 }
-
-@media (min-width: 900px){
-    .carousel-item img {
-        width: 600px;
-        max-height: 700px;
-    }
-}
