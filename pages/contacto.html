@@ -69,27 +69,29 @@
                 <div class="col-10 col-lg-4 p-3">
                     <!-- Inicio FORM -->
                     <h2 class="text-center pb-4 info-contacto__form-titulo">¿Alguna duda? ¡Contactanos!</h2>
-                    <form class="row g-3 form--background rounded" action="https://formsubmit.co/styug96@gmail.com" method="POST" data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+                    <form class="row g-3 form--background rounded" data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                         <div class="col-lg-6">
                             <label for="inputEmail" class="form-label">Nombre</label>
-                            <input type="text" class="form-control" id="inputNombre" placeholder="Nombre" name="nombre" required>
+                            <input type="text" class="form-control" id="inputNombre" placeholder="Nombre" name="nombre">
                         </div>
                         <div class="col-lg-6">
                             <label for="inputPassword4" class="form-label">Apellido</label>
-                            <input type="text" class="form-control" id="inputPassword" placeholder="Apellido" name="apellido" required>
+                            <input type="text" class="form-control" id="inputPassword" placeholder="Apellido" name="apellido">
                         </div>
                         <div class="col-12">
                             <label for="inputAddress" class="form-label">Correo Electrónico</label>
-                            <input type="email" class="form-control" id="inputEmail" placeholder="TuEmail@ejemplo.com" name="email" required>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="TuEmail@ejemplo.com" name="email">
                         </div>
                         <div class="col-12">
                             <label for="inputAddress" class="form-label">Teléfono</label>
-                            <input type="number" class="form-control" id="inputAddress" placeholder="011 9999-9999" name="telefono" required>
+                            <input type="number" class="form-control" id="inputAddress" placeholder="011 9999-9999" name="telefono">
                         </div>
                         <div class="mb-3">
                             <label for="exampleFormControlTextarea" class="form-label">Consulta</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Deje su consulta" name="consulta" required></textarea>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Deje su consulta" name="consulta"></textarea>
                         </div>
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="false">
                         <div class="col-12 m-0 pb-3 d-flex justify-content-center">
                             <button type="submit" class="btn btn-dark btn-lg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                 Enviar
@@ -102,6 +104,7 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
+                                    <a name="modal"></a>
                                     <h5 class="modal-title" id="exampleModalLabel">¡Su consulta ha sido enviada con éxito!</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
