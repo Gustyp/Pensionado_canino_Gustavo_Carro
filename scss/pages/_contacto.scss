@@ -1,6 +1,7 @@
 @use '../globals' as *;
 @use '../custom' as *;
 
+// Formato de contacto
 .info-contacto__titulo {
     @extend .titulo-principal;
 }

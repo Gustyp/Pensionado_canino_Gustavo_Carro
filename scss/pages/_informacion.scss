@@ -1,5 +1,6 @@
 @use '../globals' as *;
 
+// Formato de información
 .info-general__titulo {
     @extend .titulo-principal;
 }
